@@ -21,6 +21,9 @@ articlePElement[3].innerText = 'Info om detta plagg balbal. Detta är en ny info
 let figure = document.querySelector('.art-2 figure'); // ändrar color på min art-2.
 figure.style.backgroundColor = 'blue';
 
+let imgChange = document.querySelector('.art-2 img'); // selectar art-2 img och byter ut bild.
+imgChange.src = "img/hoodie-forrest.png";
+
 let articles = document.querySelectorAll('section article'); // selectar min article för att ändra adress nedan
 let articleElements = articles[1].children;
 articleElements[1].innerHTML = 'Norgevägen <br> 25222 Helsingborg <br> Sverige'
